@@ -1,0 +1,27 @@
+@import './base.css';
+@import './variables.css';
+
+aside {
+    background: var(--grey);
+    padding: 9px 8px;
+}
+.wrapper {
+    display: flex;
+    max-width: 1364px;
+    margin: 0 auto;
+}
+.container {
+    width: calc(100% - 40px);
+}
+.container.homepage {
+    background: var(--black-light);
+    padding: 24px 32px;
+}
+.designs-list {
+    display: flex;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+.mt-3 {
+    margin-top: 30px;
+}
